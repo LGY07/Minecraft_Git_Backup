@@ -9,6 +9,10 @@ origin_url=''
 branch='master'
 user_name=''
 user_mail=''
+exec_server() {
+## 在此处编写启动命令，支持多行
+LD_LIBRARY_PATH=. ./bedrock_server
+}
 EOF
 chmod +x config.sh
 source config.sh
