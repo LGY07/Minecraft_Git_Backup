@@ -6,7 +6,7 @@
 
 如果使用在线仓库托管，填写online_mode='true'
 
-origin_url填写仓库地址，格式为:'https://用户名:密码@git仓库域名/xxx/xxx.git'，在线模式填写
+origin_url填写仓库地址，格式为:`https://用户名:密码@git仓库域名/xxx/xxx.git`，在线模式填写
 
 branch默认填写master，若使用GitHub，则改为main，在线模式填写
 
